@@ -1,3 +1,3 @@
 # Green-Lady
-Landing project
+Landing project Landscape design
 Developer Yaroslav Prystupliuk
