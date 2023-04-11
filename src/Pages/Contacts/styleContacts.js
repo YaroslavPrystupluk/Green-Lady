@@ -3,19 +3,12 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
-const WrapHeader = styled.header`
-	background-color: ${(props) => props.theme.colors.secondary};
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-`;
-
 const WrapBlockInfo = styled.div`
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 0 0 20px 0;
+	flex-direction: column;
+	padding: 50px 0;
 `;
 
 const WrapTextHeader = styled.div`
@@ -23,7 +16,7 @@ const WrapTextHeader = styled.div`
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 0 10px;
+	margin: 10px 10px;
 `;
 
 const TextHeader = styled.p`
@@ -44,7 +37,6 @@ const CustomLocalPhoneIcon = styled(LocalPhoneIcon)`
 	color: ${(props) => props.theme.colors.primary};
 `;
 export {
-	WrapHeader,
 	WrapBlockInfo,
 	WrapTextHeader,
 	TextHeader,
