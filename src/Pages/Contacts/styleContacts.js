@@ -16,7 +16,7 @@ const WrapTextHeader = styled.div`
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 20px 10px;
+	margin: 10px 10px;
 `;
 
 const TextHeader = styled.p`
