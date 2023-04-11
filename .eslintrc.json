@@ -1,9 +1,18 @@
 {
 	"env": {
 		"browser": true,
-		"es2021": true
+		"es2021": true,
+		"jest": true
 	},
-	"extends": ["eslint:recommended", "plugin:react/recommended"],
+	"extends": [
+		"react-app",
+		"react-app/jest",
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:jsx-a11y/strict",
+		"airbnb",
+		"plugin:prettier/recommended"
+	],
 	"overrides": [],
 	"parserOptions": {
 		"ecmaVersion": "latest",
@@ -11,11 +20,63 @@
 	},
 	"plugins": ["react"],
 	"rules": {
+		"spaced-comment": "off",
+		"operator-linebreak": "off",
+		"arrow-body-style": "off",
 		"semi": ["error", "always"],
 		"quotes": ["error", "single"],
 		"jsx-quotes": ["error", "prefer-single"],
 		"no-console": "warn",
-		"no-duplicate-imports":"error"
-		
-	 }
+		"no-restricted-exports": "off",
+		"import/no-unresolved": "off",
+		"import/extensions": [
+			"error",
+			"ignorePackages",
+			{
+				"js": "never",
+				"jsx": "never",
+				"ts": "never",
+				"tsx": "never"
+			}
+		],
+		"react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+		"react/function-component-definition": "off",
+		"react-hooks/exhaustive-deps": 0,
+		"no-trailing-spaces": ["error", { "skipBlankLines": true }],
+		"linebreak-style": "off",
+		"object-curly-newline": 0,
+		"implicit-arrow-linebreak": ["error", "beside"],
+		"react/jsx-one-expression-per-line": 0,
+		"jsx-a11y/click-events-have-key-events": 0,
+		"jsx-a11y/alt-text": 0,
+		"jsx-a11y/no-autofocus": 0,
+		"jsx-a11y/no-static-element-interactions": 0,
+		"react/jsx-no-useless-fragment": "off",
+		"import/prefer-default-export": "off",
+		"react/jsx-boolean-value": "off",
+		"react/no-array-index-key": 0,
+		"no-return-assign": 0,
+		"tab_size": 0,
+		"indent": 0,
+		"translate_tabs_to_spaces": 0,
+		"eol-last": 0,
+		"no-tabs": 0,
+		"ignoredNodes": 0,
+		"react/prop-types": [0],
+		"react/require-default-props": "off",
+		"react/jsx-indent": [0],
+		"react/jsx-indent-props": [2, "tab"],
+		"camelcase": 0,
+		"object-curly-spacing": 0,
+		"comma-dangle": 0,
+		"react/react-in-jsx-scope": "off",
+		"no-unused-vars": "off",
+		"no-undef": "off",
+		"no-param-reassign": "off",
+		"jsx-a11y/no-noninteractive-element-interactions": "off",
+		"prettier/prettier": ["error", { "endOfLine": "auto" }],
+		"react/jsx-props-no-spreading": "off",
+		"no-underscore-dangle": "off",
+		"react/jsx-wrap-multilines": "off"
+	}
 }
