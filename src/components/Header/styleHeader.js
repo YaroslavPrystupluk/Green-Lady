@@ -23,13 +23,13 @@ const WrapTextHeader = styled.div`
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 5px;
 	margin: 0 10px;
 `;
 
 const TextHeader = styled.p`
 	font-size: 16px;
 	color: ${(props) => props.theme.colors.primary};
+	padding: 0 5px 0 0;
 `;
 
 const CustomLocationOnIcon = styled(LocationOnIcon)`

@@ -21,8 +21,8 @@ const theme = {
 		secondary: '#f5f5f5',
 	},
 	media: {
-		phone: '(max-width: 425px)',
-		tablet: '(max-width: 768px) and (min-widht: 425px)',
+		phone: '(max-width: 426px)',
+		tablet: ' (min-width: 426px) and (max-width: 1200px)',
 	},
 };
 
