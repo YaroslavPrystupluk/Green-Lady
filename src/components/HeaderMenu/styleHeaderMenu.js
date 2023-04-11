@@ -8,6 +8,9 @@ const WrapMenu = styled.div`
 	gap: 70px;
 	background-color: ${(props) => props.theme.colors.primary};
 	border-bottom: 3px solid ${(props) => props.theme.colors.secondary};
+	@media ${(props) => props.theme.media.phone} {
+		display: none;
+	}
 `;
 
 const CustomLink = styled(NavLink)`
