@@ -25,7 +25,7 @@
 		"arrow-body-style": "off",
 		"semi": ["error", "always"],
 		"quotes": ["error", "single"],
-		"jsx-quotes": ["error", "prefer-single"],
+		"jsx-quotes": ["error", "prefer-double"],
 		"no-console": "warn",
 		"no-restricted-exports": "off",
 		"import/no-unresolved": "off",
