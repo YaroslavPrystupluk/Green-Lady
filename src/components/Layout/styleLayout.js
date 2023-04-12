@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+const WrapperStyled = styled.div`
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+`;
+
 const WrapLayout = styled.div`
 	max-width: 1200px;
 	margin: 0 auto;
@@ -10,4 +16,4 @@ const WrapLayout = styled.div`
 		margin: 0 10px;
 	}
 `;
-export { WrapLayout };
+export { WrapperStyled, WrapLayout };
