@@ -11,17 +11,14 @@ const ContainerFooter = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	@media ${(props) => props.theme.media.desctop} {
+		margin: 0 80px;
+	}
 	@media ${(props) => props.theme.media.tablet} {
-		margin: 0 50px;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+		margin: 0 40px;
 	}
 	@media ${(props) => props.theme.media.phone} {
 		margin: 0 10px;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
 	}
 `;
 
