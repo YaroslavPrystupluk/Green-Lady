@@ -13,7 +13,6 @@ const WrapOurObjects = styled.div`
 		width: 50%;
 		height: 300px;
 		padding: 0 15px;
-		border-top: 3px solid ${(props) => props.theme.colors.secondary};
 	}
 	@media ${(props) => props.theme.media.phone} {
 		width: 100%;

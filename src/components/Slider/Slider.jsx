@@ -24,17 +24,6 @@ const Slider = () => {
 				pagination={{
 					clickable: true,
 				}}
-				paginationStyle={{ color: '#75ab37' }}
-				nextButtonProps={{
-					style: {
-						color: '#75ab37',
-					},
-				}}
-				prevButtonProps={{
-					style: {
-						color: '#75ab37',
-					},
-				}}
 				modules={[Navigation, Pagination]}>
 				<SwiperSlide>
 					<ImageSlider src="/image/slider/0.jpg" alt="slide0" />
