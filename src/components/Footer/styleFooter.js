@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ImageDecor = styled.div`
-	min-height: 100px;
+	min-height: 90px;
 	background-image: url('/image/footer.jpg');
 	background-position: 100% 100%;
 	background-repeat: repeat-x;
