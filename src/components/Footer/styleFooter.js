@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
 const ImageDecor = styled.div`
-	height: 100px;
+	min-height: 100px;
 	background-image: url('/image/footer.jpg');
-	background-position: 0 100%;
+	background-position: 100% 100%;
 	background-repeat: repeat-x;
 	background-size: contain;
+	border-bottom: 2px solid ${(props) => props.theme.colors.secondary};
 `;
 
 const WrapFooter = styled.footer`
 	background-color: ${(props) => props.theme.colors.primary};
 	margin-top: auto;
-	border-top: 2px solid ${(props) => props.theme.colors.secondary};
 `;
 
 const ContainerFooter = styled.div`

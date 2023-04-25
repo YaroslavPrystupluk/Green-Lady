@@ -6,8 +6,8 @@ const Footer = () => {
 	const navigate = useNavigate();
 	return (
 		<>
-			<ImageDecor />
 			<WrapFooter>
+				<ImageDecor />
 				<ContainerFooter>
 					<Slogan>&copy; Green ledy 2023</Slogan>
 					<WrapLogoImg
