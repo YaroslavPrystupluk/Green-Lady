@@ -1,5 +1,14 @@
 import styled from 'styled-components';
 
+const ImageDecor = styled.div`
+	min-height: 100px;
+	background-image: url('/image/footer.jpg');
+	background-position: 100% 100%;
+	background-repeat: repeat-x;
+	background-size: contain;
+	border-bottom: 2px solid ${(props) => props.theme.colors.secondary};
+`;
+
 const WrapFooter = styled.footer`
 	background-color: ${(props) => props.theme.colors.primary};
 	margin-top: auto;
@@ -11,17 +20,15 @@ const ContainerFooter = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	@media ${(props) => props.theme.media.desctop} {
+		max-width: 80%;
+	}
 	@media ${(props) => props.theme.media.tablet} {
-		margin: 0 50px;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+		max-width: 90%;
 	}
 	@media ${(props) => props.theme.media.phone} {
-		margin: 0 10px;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+		max-width: 100%;
+		padding: 0 10px;
 	}
 `;
 
@@ -42,4 +49,4 @@ const LogoImg = styled.img`
 	padding: 10px;
 	width: 70px;
 `;
-export { WrapFooter, ContainerFooter, WrapLogoImg, Slogan, LogoImg };
+export { ImageDecor, WrapFooter, ContainerFooter, WrapLogoImg, Slogan, LogoImg };
