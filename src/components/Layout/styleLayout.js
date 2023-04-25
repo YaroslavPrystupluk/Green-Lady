@@ -9,15 +9,11 @@ const WrapperStyled = styled.div`
 const WrapLayout = styled.div`
 	max-width: 1200px;
 	margin: 0 auto;
-	@media ${(props) => props.theme.media.desctop} {
-		max-width: 80%;
-	}
 	@media ${(props) => props.theme.media.tablet} {
-		max-width: 90%;
+		margin: 0 50px;
 	}
 	@media ${(props) => props.theme.media.phone} {
-		max-width: 100%;
-		padding: 0 10px;
+		margin: 0 10px;
 	}
 `;
 export { WrapperStyled, WrapLayout };
