@@ -1,6 +1,7 @@
 {
 	"name": "green-lady",
 	"version": "0.1.0",
+	"homepage": "https://yaroslavprystupluk.github.io/content-management-system/",
 	"private": true,
 	"author": "Yaroslav Prystupliuk",
 	"dependencies": {
@@ -29,7 +30,8 @@
 		"prettier": "prettier --write .",
 		"eslint": "eslint .",
 		"eslint:fix": "eslint --fix .",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"deploy": "gh-pages -d build"
 	},
 	"lint-staged": {
 		"*.{js,ts,tsx, jsx}": [
