@@ -1,6 +1,11 @@
 name: Green lady
 
-on: [workflow_dispatch, push]
+on: 
+  workflow_dispatch
+  push:
+    branches: [ main ]
+  
+
 jobs:
   build:
     runs-on: windows-latest
