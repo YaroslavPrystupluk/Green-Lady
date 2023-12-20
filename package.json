@@ -3,7 +3,6 @@
 	"version": "0.1.0",
 	"homepage": "https://yaroslavprystupluk.github.io/Green-Lady/",
 	"private": true,
-	"homepage": "https://yaroslavprystupluk.github.io/Green-Lady/",
 	"author": "Yaroslav Prystupliuk",
 	"dependencies": {
 		"@emotion/react": "^11.10.6",
