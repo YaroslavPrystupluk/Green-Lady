@@ -1,7 +1,6 @@
 {
 	"name": "green-lady",
 	"version": "0.1.0",
-	"homepage": "https://yaroslavprystupluk.github.io/Green-Lady/",
 	"private": true,
 	"author": "Yaroslav Prystupliuk",
 	"dependencies": {
