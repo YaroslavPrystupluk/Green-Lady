@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
 const WrapHeader = styled.header`
 	background-color: ${(props) => props.theme.colors.secondary};
@@ -36,19 +35,7 @@ const CustomLocationOnIcon = styled(LocationOnIcon)`
 	color: ${(props) => props.theme.colors.primary};
 `;
 
-const CustomAlternateEmailIcon = styled(AlternateEmailIcon)`
-	color: ${(props) => props.theme.colors.primary};
-`;
-
 const CustomLocalPhoneIcon = styled(LocalPhoneIcon)`
 	color: ${(props) => props.theme.colors.primary};
 `;
-export {
-	WrapHeader,
-	WrapBlockInfo,
-	WrapTextHeader,
-	TextHeader,
-	CustomLocalPhoneIcon,
-	CustomLocationOnIcon,
-	CustomAlternateEmailIcon,
-};
+export { WrapHeader, WrapBlockInfo, WrapTextHeader, TextHeader, CustomLocalPhoneIcon, CustomLocationOnIcon };

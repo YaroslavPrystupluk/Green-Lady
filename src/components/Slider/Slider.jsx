@@ -26,19 +26,22 @@ const Slider = () => {
 				}}
 				modules={[Navigation, Pagination]}>
 				<SwiperSlide>
-					<ImageSlider src="/image/slider/0.jpg" alt="slide0" />
+					<ImageSlider src="/image/slider/slider2.jpg" alt="slide0" />
 				</SwiperSlide>
 				<SwiperSlide>
-					<ImageSlider src="/image/slider/1.jpg" alt="slide1" />
+					<ImageSlider src="/image/slider/slider3.jpeg" alt="slide1" />
 				</SwiperSlide>
 				<SwiperSlide>
-					<ImageSlider src="/image/slider/2.jpg" alt="slide2" />
+					<ImageSlider src="/image/slider/slider4.jpeg" alt="slide2" />
 				</SwiperSlide>
 				<SwiperSlide>
-					<ImageSlider src="/image/slider/3.jpg" alt="slide3" />
+					<ImageSlider src="/image/slider/slider5.jpg" alt="slide3" />
 				</SwiperSlide>
 				<SwiperSlide>
-					<ImageSlider src="/image/slider/4.jpg" alt="slide4" />
+					<ImageSlider src="/image/slider/slider6.jpg" alt="slide4" />
+				</SwiperSlide>
+				<SwiperSlide>
+					<ImageSlider src="/image/slider/slider1.jpeg" alt="slide4" />
 				</SwiperSlide>
 			</StyledSwiper>
 		</>
