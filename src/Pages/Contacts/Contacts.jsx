@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-	TextHeader,
-	CustomLocalPhoneIcon,
-	CustomLocationOnIcon,
-	CustomAlternateEmailIcon,
-	WrapTextHeader,
-	WrapBlockInfo,
-} from './styleContacts';
+import { TextHeader, CustomLocalPhoneIcon, CustomLocationOnIcon, WrapTextHeader, WrapBlockInfo } from './styleContacts';
 
 const Contacts = () => {
 	return (
@@ -18,12 +11,7 @@ const Contacts = () => {
 			<WrapTextHeader>
 				<CustomLocationOnIcon />
 				<TextHeader>Рівненська область,</TextHeader>
-				<TextHeader>с. Біла криниця,</TextHeader>
-				<TextHeader>вул. Незалежності, 25</TextHeader>
-			</WrapTextHeader>
-			<WrapTextHeader>
-				<CustomAlternateEmailIcon />
-				<TextHeader>support@greenledy.com</TextHeader>
+				<TextHeader>с. Біла криниця</TextHeader>
 			</WrapTextHeader>
 		</WrapBlockInfo>
 	);

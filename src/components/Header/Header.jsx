@@ -5,7 +5,6 @@ import {
 	TextHeader,
 	CustomLocalPhoneIcon,
 	CustomLocationOnIcon,
-	CustomAlternateEmailIcon,
 	WrapTextHeader,
 	WrapBlockInfo,
 } from './styleHeader';
@@ -22,12 +21,7 @@ const Header = () => {
 				<WrapTextHeader>
 					<CustomLocationOnIcon />
 					<TextHeader>Рівненська область,</TextHeader>
-					<TextHeader>с. Біла криниця,</TextHeader>
-					<TextHeader>вул. Незалежності, 25</TextHeader>
-				</WrapTextHeader>
-				<WrapTextHeader>
-					<CustomAlternateEmailIcon />
-					<TextHeader>support@greenledy.com</TextHeader>
+					<TextHeader>с. Біла криниця</TextHeader>
 				</WrapTextHeader>
 			</WrapBlockInfo>
 		</WrapHeader>
