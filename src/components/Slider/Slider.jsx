@@ -40,6 +40,9 @@ const Slider = () => {
 				<SwiperSlide>
 					<ImageSlider src="/image/slider/slider6.jpg" alt="slide4" />
 				</SwiperSlide>
+				<SwiperSlide>
+					<ImageSlider src="/image/slider/slider1.jpeg" alt="slide4" />
+				</SwiperSlide>
 			</StyledSwiper>
 		</>
 	);
